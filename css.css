@@ -1,6 +1,9 @@
-h1 {
+span {
     color: red;
-    background: black;
-    z-index: 23;
-    max-width: 1200px;
+    border: 1px solid black;
+}
+
+div {
+    max-width: 1223px;
+    display: none;
 }
