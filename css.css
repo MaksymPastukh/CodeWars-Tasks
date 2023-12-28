@@ -1,6 +1,16 @@
 h1 {
-    color: red;
+    border: 2px;
     background: black;
     z-index: 23;
     max-width: 1200px;
+}
+
+div {
+    display: flex;
+    gap: 1px;
+}
+
+p {
+    font-size: 123px;
+    direction: initial;
 }
