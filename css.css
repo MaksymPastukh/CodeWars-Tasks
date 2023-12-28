@@ -1,16 +1,9 @@
-h1 {
-    border: 2px;
-    background: black;
-    z-index: 23;
-    max-width: 1200px;
+span {
+    color: red;
+    border: 1px solid black;
 }
 
 div {
-    display: flex;
-    gap: 1px;
-}
-
-p {
-    font-size: 123px;
-    direction: initial;
+    max-width: 1223px;
+    display: none;
 }
