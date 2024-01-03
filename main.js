@@ -36,3 +36,15 @@ function sumTwoSmallestNumbers(numbers) {
 }
 
 // console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22])); //13
+
+//Задача 3
+// Создаем функцию, которая принимает  в параметрах логическое значение
+function booleanToString(b){
+    // Возвращаем значение параметра с методом Boolean.prototype.toString()
+    // Метод toString() возвращает строковое представление указанного объекта Boolean.
+
+    return b.toString()
+}
+
+// При вызове функции с булевым значением, функция нам вернет это значение в строковом виде!
+console.log(booleanToString(true))
