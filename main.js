@@ -1,4 +1,3 @@
-
 //Задача 1
 //Создаем функию которая принимает в себя массив
 function oddOrEven(array) {
@@ -18,7 +17,7 @@ function oddOrEven(array) {
     if (sumOfElements % 2 === 0) {
         return `even`
     } else {
-        return  `odd`
+        return `odd`
     }
 }
 
@@ -39,7 +38,7 @@ function sumTwoSmallestNumbers(numbers) {
 
 //Задача 3
 // Создаем функцию, которая принимает  в параметрах логическое значение
-function booleanToString(b){
+function booleanToString(b) {
     // Возвращаем значение параметра с методом Boolean.prototype.toString()
     // Метод toString() возвращает строковое представление указанного объекта Boolean.
 
@@ -47,4 +46,15 @@ function booleanToString(b){
 }
 
 // При вызове функции с булевым значением, функция нам вернет это значение в строковом виде!
-console.log(booleanToString(true))
+// console.log(booleanToString(true))
+
+
+//Задача 4
+// Создаем функцию, которая принимает  в параметр (a) массив , а в параметр (х) новое значение
+function check(a, x) {
+    // Используя метод includes на массиве (а) со значением параметра (х) мы проверяем создежится ли массиве -
+    // предоставленное значение (х)
+    return a.includes(x)
+}
+
+console.log(check([66,101], 66))
