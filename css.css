@@ -1,9 +1,4 @@
-span {
+h1 {
     color: red;
     border: 1px solid black;
-}
-
-div {
-    max-width: 1223px;
-    display: none;
 }
